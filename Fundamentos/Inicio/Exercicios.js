@@ -31,3 +31,6 @@ console.log(`Antes da troca: a2 = ${a2}, b2 = ${b2}`);
 [a2, b2] = [b2, a2];
 
 console.log(`Depois da troca: a2 = ${a2}, b2 = ${b2}`);
+
+
+console.log(Number.isInteger(a2))
